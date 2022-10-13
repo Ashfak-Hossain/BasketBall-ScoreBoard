@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- StyleSheet -->
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <!-- Container Start -->
+
+    <div class="container">
+      <!-- Home Start -->
+
+      <div class="home">
+        <h3>HOME</h3>
+        <div class="scoreboard-home">
+          <h2 id="home-score">0</h2>
+        </div>
+
+        <!-- Buttons -->
+
+        <div class="buttons">
+          <button class="plusOne-btn" id="home-score-btn-1">+1</button>
+          <button class="plusTwo-btn" id="home-score-btn-2">+2</button>
+          <button class="plusThree-btn" id="home-score-btn-3">+3</button>
+          <button class="reset-btn" id="reset-home-score">Reset</button>
+        </div>
+      </div>
+
+      <!-- Home End -->
+
+      <!-- Guest Start -->
+
+      <div class="guest">
+        <h3>GUEST</h3>
+        <div class="scoreboard-guest">
+          <h2 id="guest-score">0</h2>
+        </div>
+
+        <div class="buttons">
+          <button class="plusOne-btn" id="guest-score-btn-1">+1</button>
+          <button class="plusTwo-btn" id="guest-score-btn-2">+2</button>
+          <button class="plusThree-btn" id="guest-score-btn-3">+3</button>
+          <button class="reset-btn" id="reset-guest-score">Reset</button>
+        </div>
+      </div>
+
+      <!-- Guest End -->
+    </div>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+  </body>
+</html>
